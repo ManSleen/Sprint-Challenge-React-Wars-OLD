@@ -1,0 +1,66 @@
+p {
+  margin-left: 10px;
+  display: inline;
+}
+
+.character-container {
+  width: 80vw;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: left;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.3);
+}
+
+.character-name {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.character-info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.info-display-hide {
+  display: none;
+}
+
+.character-left {
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 33%;
+}
+
+.character-left div {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.character-middle {
+  display: flex;
+  flex-flow: row wrap;
+  width: 33%;
+}
+
+.character-middle div {
+  width: 100%;
+}
+
+.character-right {
+  display: flex;
+  flex-flow: row wrap;
+  width: 33%;
+}
+
+.character-right div {
+  width: 100%;
+}
